@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+body{
+padding: 50px;
+background-color: aliceblue;
+}
+.card{
+    background-color:white;
+    border-radius: 6px;
+    padding: 50px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0 0 15px rgb(54, 53, 53);
+        transition: background 0.5s ease-in-out;
+
+}
+input,
+ button,
+ textarea,
+ select,button{
+display: block;
+padding: 10px;
+ border-radius: 6px;
+margin-bottom: 20px;
+margin-top: 10px;
+width: 100%;
+        transition: all 0.5s ease-in-out;
+
+}
+.btn{
+   background-color: green;
+   border: none;
+   color: white;
+    margin-top: 50px;
+
+
+}
+   .btn:hover{
+        background-color: rgb(17, 167, 17);
+    }
+    table {
+    width: 100%;
+    text-align: center;
+
+}
+th {
+   background-color: green;
+}
+.card:hover{
+transform: scale(1.05);
+}
+
+input:hover,
+ textarea:hover,
+ select:hover{
+    border:rgb(113, 80, 17) 3px solid ;
+ }
+

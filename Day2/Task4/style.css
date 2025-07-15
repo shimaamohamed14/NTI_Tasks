@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+    padding: 10px;
+    font-family: cursive;
+}
+
+input,
+.form-input,
+#gender,
+#message {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 70%;
+    border: solid rgb(238, 246, 241) 2px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.log-form,
+.first-ol,
+.second-ol,
+.first-ul,
+.second-ul {
+    padding: 30px;
+    background-color: rgb(81, 195, 104);
+    border-radius: 5px;
+    width: 40%;
+}
+
+.log-table {
+    width: 40%;
+    text-align: center;
+
+}
+
+.log-table th {
+    background-color: rgb(81, 195, 104);
+}
+
+.log-table th,
+.log-table td {
+    border: 1px solid gray;
+    padding: 4px;
+}
